@@ -1,3 +1,2 @@
-add_lunch_combo cm_dory-eng
-add_lunch_combo cm_dory-user
+add_lunch_combo full_dory-userdebug
 

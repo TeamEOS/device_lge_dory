@@ -22,7 +22,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0008000 --ramdisk_offset 0x2000000 --second_offset 0x0f00000 --tags_offset 0x01E00000
 
 # kernel
-TARGET_KERNEL_CONFIG := dory_defconfig
+TARGET_KERNEL_CONFIG := eos_dory_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/dory
 TARGET_KERNEL_APPEND_DTB := true
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
